@@ -18,7 +18,7 @@ Projeto .NET de estudo para a publicação/consumo de mensagens com Redis.
 
 3. **Execute o conteiner do redis**
 ```sh
-docker run redis
+docker run -d -p 6379:6379 redis
 ```
 
 4. **Execute a aplicação que envia mensagens**
