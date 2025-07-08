@@ -11,22 +11,15 @@ Projeto .NET de estudo para a publicação/consumo de mensagens com Redis.
 
 ## Passos para subir o projeto
 
-1. **Faça o download do repositório:**
-[Clique aqui para realizar o download]()
+1. **Clone o repositório repositório:**
+[Clique aqui para acessar o repo](https://github.com/eduobs/RedisPubSub)
 
-2. **Descompacte o projeto...**
-
-3. **Execute o conteiner do redis**
+2. **Execute o conteiner do redis**
 ```sh
 docker run -d -p 6379:6379 redis
 ```
 
-4. **Execute a aplicação que envia mensagens**
-```sh
-dotnet run
-```
-
-4. **Execute a aplicação que consome mensagens**
+3. **Execute as aplicações emn terminais distindos com o comando**
 ```sh
 dotnet run
 ```
